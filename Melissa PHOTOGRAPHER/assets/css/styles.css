@@ -1,0 +1,147 @@
+body{
+    margin: 0;
+    background: url(https://www.tattoobizz.nl/wp-content/uploads/2017/10/img28.jpg) no-repeat;
+    background: cover;
+    background-color: #fff ;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header{
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.head_text{
+    text-decoration: none;
+    color: #fff;
+    text-transform: none;
+    font-weight: normal;
+    font-size: 80px;
+    position: absolute;
+    top: 50px;
+    right: 820px;
+    cursor: pointer;
+}
+
+.suptext{
+    font-weight: normal;
+    letter-spacing:8px;
+    font-size: 10px;
+    opacity: 0.6;
+    position: absolute;
+    top: 135px;
+    left: 880px;
+}
+
+.nav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: #fff;
+    margin: 20px;
+    position: relative;
+    top: 200px;
+    font-weight: normal;
+    transition: .3s linear;
+}
+
+.nav_link:hover{
+    color: grey;
+    opacity: 0.8;
+}
+
+.intro{
+    height: 100vh;
+    position: absolute;
+    top: 800px;
+    left: 200px;
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.intro_title{
+    color: #fff;
+    font-weight: normal;
+}
+
+.btn{
+    font-size: 20px;
+    color: #fff;
+    position: fixed;
+    top: 850px;
+    left: 100px;
+    border-radius: 4px;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #fff;
+    background-color: #333;
+    cursor: pointer;
+    transition: .3s linear;
+    z-index: 1000000;
+    opacity: 0;
+}
+
+
+.btn:hover{
+    background-color: #fff;
+    color: #333;
+    opacity: 1;
+}
+
+
+.first{
+    width: 940px;
+    height: 500px;
+    background-color: #333;
+    color: #fff;
+    font-size: 20px;
+    position: absolute;
+    top: 945px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.t1{
+    margin-top: 100px;
+    margin-left: 100px;
+    font-style: italic;
+}
+.t2{
+    margin-left: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+}
+.t3{
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.t4{
+    opacity: .5;
+    margin-left: 100px;
+    margin-top: 40px;
+    bottom: -1  ;
+}
+
+
+.second{
+    width: 963px;
+    height: 500px;
+    background-color: #333;
+    position: absolute;
+    left: 940px;
+    top: 0px;
+    bottom: -1px;
+    background: url(https://sun9-34.userapi.com/c638618/v638618377/5269a/1yJn-R8S7BE.jpg);
+}
